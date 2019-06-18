@@ -1,0 +1,131 @@
+.task-box{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    /* background: rgb(246, 245, 245); */
+}
+.heading{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    
+    width: 70%;
+    height: 7%;
+    margin-left: 17%;
+    margin-top: 1.2%;
+    font-weight: 100;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: rgb(116, 61, 121) 1px 1px 10px 1px;
+}
+.task-tex{
+    font-size: 30px;
+    margin-left: 2%;
+    margin-top: 1.5%;
+    color: rgba(10, 40, 65, 0.931);
+    font-family: Arial;
+    font-weight: bolder;
+}
+.tick-box{
+    position: absolute;
+    width: 6%;
+    height: 100%;
+    border-right: solid rgba(13, 52, 124, 0.801) 1.4px;
+}
+.ticks{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 93%;
+    margin-top: 90%;
+}
+.tick-cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 9.3%;
+    /* background: #000; */
+    margin-top: 16%;
+}
+.tick{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    /* border: solid rgba(0, 0, 0, 0.37) 2px; */
+    background: rgba(29, 83, 199, 0.883);
+}
+.check{
+    color: #fff;
+}
+.temp-tick{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: solid rgba(0, 0, 0, 0.37) 2px;
+}
+
+.task-given-box{
+    position: absolute;
+    width: 84%;
+    height: 92.8%;
+    margin-left: 6%;
+    margin-top: 4.8%;
+    /* background: rgba(0, 0, 0, 0.178); */
+}
+.task-given{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 8%;
+    border: solid rgba(0, 0, 0, 0.411) 1px;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.task-given-tex{
+    margin-top: 20px;
+    font-size: 19px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    color: rgb(40, 86, 92); 
+}
+
+.upload-box{
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    border-left: solid rgba(0, 0, 0, 0.315) 1.4px;
+    right: 0;
+}
+.uploads{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 93%;
+    margin-top: 48%;
+}
+.upload-cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8%;
+    margin-top: 18%;
+}
+.upload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 80%;
+    background: rgba(29, 83, 199, 0.787);
+    border-radius: 20px;
+    font-size: 24px;
+    color: #fff;
+}

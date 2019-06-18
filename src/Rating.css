@@ -1,0 +1,62 @@
+.tex-box{
+    margin-left: 8%;
+}
+.rating-box{
+    position: absolute;
+    width: 20%;
+    height: 92.2%;
+    margin-left: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.my-profile{
+    width: 70%;
+    border-bottom: solid rgba(0, 0, 0, 0.246) 2px;
+    margin-top: 10%;
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(58, 130, 139); 
+}
+.user-box{
+    width: 160px;
+    height: 160px;
+    margin-top: 2%;
+    /* margin-left: 10%; */
+    /* background: #000; */
+    border-radius: 20px;
+    border: solid #000 2px;
+}
+.head-tex{
+    margin-top: 20%;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(58, 130, 139); 
+}
+.rating{
+    margin-top: 2%;
+    font-size: 29px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.76);
+}
+.prev-rating-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    width: 130px;
+    height: 130px;
+    background: #fff;
+    border: solid #000 1px;
+    border-radius: 50%;
+    font-size: 65px;
+}
+.star{
+    position: absolute;
+    font-size: 20px;
+    margin-left: 14%;
+    margin-top: -5%;
+    color: rgb(58, 130, 139);
+}
+.box-tex{
+    font-size: 20px;
+    margin-left: 4%;    
+}

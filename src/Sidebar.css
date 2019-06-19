@@ -4,8 +4,10 @@
     width: 14%;
     height: 102%;
     margin-top: 3.2%;
-    background: linear-gradient(rgb(114, 55, 124), rgb(112, 53, 109), rgb(136, 57, 125), 
-    rgb(188, 114, 231), rgb(231, 65, 107));
+    /* background: linear-gradient(rgb(114, 55, 124), rgb(112, 53, 109), rgb(136, 57, 125),
+    rgb(188, 114, 231), rgb(231, 65, 107)); */
+    background-image: linear-gradient(180deg, #671675 0%, #b973dc 100%);
+
 }
 
 .tabs{
@@ -19,7 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgba(255, 255, 255, 0.65);
+    color: #fff;
     width: 100%;
     height: 5%;
     font-weight: 100;
@@ -36,7 +38,7 @@
     align-items: center;
     width: 80%;
     height: 100%;
-    border-bottom: solid 1px rgba(255, 255, 255, 0.301); 
+    border-bottom: solid 1px rgba(255, 255, 255, 0.301);
 }
 .tab-tex{
     position: absolute;
